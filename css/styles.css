@@ -70,6 +70,10 @@ p{
 
 
 }
+.bake-cake{
+    width: 50%;
+    text-align: center;
+}
 .icon:hover{
     color: #ff4c68;
 }
@@ -95,4 +99,12 @@ p{
 }
 .carousel-item{
     padding: 7% 15%;
+}
+/* Pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
 }
