@@ -56,9 +56,14 @@ p{
  .title-images{
      width: 100%;
      transform: rotate(10deg);
+     position: absolute;
+     left: 20%;
  }
 #features{
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    
 }
 .features-box{
     text-align: center;
@@ -107,4 +112,28 @@ p{
 }
 .pricing-column{
     padding: 3% 2%;
+}
+@media (max-width:992px){
+    #title{
+        text-align: center;
+    }
+    .title-images{
+        position: static;
+        transform: rotate(0);
+    }
+}
+/* footer */
+#cta{
+    background-color:#ff4c68;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+#footer{
+    padding: 100px;
+    text-align: center;
+    padding: 7% 15%;
+}
+.social-icons{
+    margin: 10px 20px;
 }
